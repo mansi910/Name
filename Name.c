@@ -1,6 +1,24 @@
 #include<stdio.h>
-void main()
+#include<conio.h>
+int main()
 {
-printf(" name" );
-getch();
+ int num,n,div,p;
+ printf("Enter any number: ");
+ scanf("%d", &num);
+ for(n=2; n<=num; n++)
+ {
+  for(div=2; div<n; div++)
+  {
+   if(n%div==0)
+   {
+     p=0;
+     break;
+   }
+   p=1;
+  }
+  if(p)
+    printf("\t%d",n);
+ }
+ getch();
+ return 0;
 }
