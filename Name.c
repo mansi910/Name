@@ -15,6 +15,12 @@ int main()
      p=0;
      break;
    }
+   
+   
+   
+   
+   
+   
    p=1;
   }
   if(p)
