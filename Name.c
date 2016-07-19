@@ -16,12 +16,6 @@ int main()
      break;
    }
    
-   
-  }
- }
-   
-   
-   
    p=1;
   }
   if(p)
