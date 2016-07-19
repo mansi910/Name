@@ -4,8 +4,8 @@ int main()
 {
  int num,n,div,p;
  int num;
- printf("Enter any number: ");
- scanf("%d", &num);
+ printf("Enter any number: ");        
+         scanf("%d", &num);
  for(n=2; n<=num; n++)
  {
   for(div=2; div<n; div++)
