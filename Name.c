@@ -3,6 +3,7 @@
 int main()
 {
  int num,n,div,p;
+ int a;
  printf("Enter any number: ");
  scanf("%d", &num);
  for(n=2; n<=num; n++)
