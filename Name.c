@@ -20,5 +20,6 @@ int main()
     printf("\t%d",n);
  }
  getch();
+ return;
  return 0;
 }
